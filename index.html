@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+	<head>
+		<meta http-equiv="contant-type" content="text/html" charset="UTF-8">
+		<meta name="Author" content="木木">
+		<meta name="Keywords" content="">
+		<meta name="Description" content="">
+		<title>Document</title>
+		<style type="text/css">
+			#q{
+				width:200px;
+				height:160px;
+				margin:200px auto;
+			}
+			p{
+				width:200px;
+				height:160px;
+				position:relative;
+				animation:xt 4s infinite;
+			}
+			@keyframes xt{
+				0%{
+					transform:scale(1);
+				}
+				50%{
+					transform:scale(2);
+				}
+				100%{
+					transform:scale(1);
+				}
+			}
+			#q p:before{
+				position:absolute;
+				top:0;
+				left:0;
+				background-color:red;
+				width:100px;
+				height:160px;
+				border-radius:100px 100px 0 0;
+				content:'';
+				transform:rotate(45deg);
+				transform-origin: right bottom;
+			}
+			#q p:after{
+				position:absolute;
+				top:0;
+				right:0;
+				background-color:red;
+				width:100px;
+				height:160px;
+				border-radius:100px 100px 0 0;
+				content:'';
+				transform:rotate(-45deg);
+				transform-origin: left bottom;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="q" class="">
+			<p></p>
+		</div>	
+	</body>
+</html>
