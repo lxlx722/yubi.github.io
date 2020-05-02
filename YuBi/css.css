@@ -1,0 +1,797 @@
+    @charset "utf-8";
+    .navigationBar {
+        width: 100%;
+        height: 52px;
+        background: #181818;
+        position: fixed;
+        top: 0;
+    }
+    
+    .logo {
+        margin-top: -2px;
+        float: left;
+    }
+    
+    .navigationBartext {
+        float: left;
+        color: #5E5E5E;
+        margin-left: 400px;
+        font: 14px/1.5 "微软雅黑";
+        line-height: 52px;
+        text-align: center;
+    }
+    
+    .navigationBartext li {
+        float: left;
+        width: 100px;
+    }
+    
+    .navigationBartext ul li:first-child {
+        color: #fff;
+        background-color: #3959A3;
+    }
+    
+    .navigationBartext li+li:hover {
+        color: white;
+    }
+    
+    .search {
+        float: right;
+    }
+    
+    .search:active .input {
+        display: block;
+    }
+    
+    .input {
+        width: 130px;
+        height: 50px;
+        display: none;
+    }
+    
+    .input input {
+        width: 150px;
+        height: 50px;
+    }
+    
+    .carousel {
+        height: 600px;
+        background-color: #9BAFBD;
+    }
+    
+    .background {
+        width: 1280px;
+        margin: 0px auto;
+    }
+    
+    .news {
+        width: 1903px;
+        height: 833px;
+        margin: 0px auto;
+    }
+    
+    .left {
+        width: 1100px;
+        background-color: #2A2A2A;
+        font-size: 0px;
+        float: left;
+    }
+    
+    .leftHeading {
+        height: 50px;
+        font: 20px "微软雅黑";
+        color: white;
+        line-height: 50px;
+    }
+    
+    .leftHeading>span {
+        display: block;
+        float: left;
+        padding-left: 20px;
+    }
+    
+    .newsLeftbox {
+        width: 765px;
+        background-color: #3959A3;
+    }
+    
+    .newsRightbox {
+        width: 295px;
+        background-color: #232323;
+        color: #5E5E5E;
+    }
+    
+    .right {
+        width: 803px;
+        background-color: #758CC3;
+        height: 830px;
+        float: right;
+        overflow: hidden;
+        font-size: 0px;
+    }
+    
+    .rightBox {
+        width: 770px;
+        height: 800px;
+        margin: 15px auto;
+        background: white;
+        overflow: hidden;
+    }
+    
+    .rightBox div:first-child {
+        padding: 15px;
+    }
+    
+    .rightBox>div:first-child span {
+        width: 670px;
+        height: 50px;
+        color: white;
+        font-size: 18px;
+        line-height: 50px;
+        background: #3959A3;
+        display: inline-block;
+        padding-left: 20px;
+    }
+    
+    .newsRightbox:hover {
+        color: white;
+    }
+    
+    .leftNews {
+        padding: 15px;
+        height: 750px;
+        color: #5E5E5E;
+    }
+    
+    .leftNews li {
+        overflow: hidden;
+    }
+    
+    .leftNews li+li {
+        margin-top: 15px;
+    }
+    
+    .leftNews span {
+        width: 710px;
+        display: block;
+        margin: 10px;
+        line-height: 15px;
+    }
+    
+    .leftNews div {
+        float: left;
+    }
+    
+    .leftNews div:first-child {
+        width: 360px;
+    }
+    
+    .leftNews div:last-child {
+        width: 710px;
+        height: 240px;
+        background: black;
+    }
+    
+    .leftNewstext {
+        color: white;
+        font-size: 18px;
+    }
+    
+    .leftNews div:last-child span+span {
+        font-size: 14px;
+        color: #5E5E5E;
+    }
+    
+    .classification ul {
+        height: 600px;
+        padding: 15px;
+    }
+    
+    .classification li {
+        width: 370px;
+        height: 208px;
+        float: left;
+    }
+    
+    .classification li:nth-child(1) {
+        background: url("images/farcry5.jpg");
+        background-size: 370px auto;
+    }
+    
+    .classification li:nth-child(1):hover {
+        background: url("images/farcry5.jpg");
+        background-size: 370px auto;
+        opacity: 0.5;
+    }
+    
+    .classification li:nth-child(2) {
+        background: url("images/sab.jpg");
+        background-size: 370px auto;
+    }
+    
+    .classification li:nth-child(2):hover {
+        background: url("images/sab.jpg");
+        background-size: 370px auto;
+        opacity: 0.5;
+    }
+    
+    .classification li:nth-child(3) {
+        background: url("images/thecrew2.jpg");
+        background-size: 370px auto;
+    }
+    
+    .classification li:nth-child(3):hover {
+        background: url("images/thecrew2.jpg");
+        background-size: 370px auto;
+        opacity: 0.5;
+    }
+    
+    .classification li:nth-child(4) {
+        background: url("images/aco.jpg");
+        background-size: 370px auto;
+    }
+    
+    .classification li:nth-child(4):hover {
+        background: url("images/aco.jpg");
+        background-size: 370px auto;
+        opacity: 0.5;
+    }
+    
+    .classification li:nth-child(5) {
+        background: url("images/rkb.jpg");
+        background-size: 370px auto;
+    }
+    
+    .classification li:nth-child(5):hover {
+        background: url("images/rkb.jpg");
+        background-size: 370px auto;
+        opacity: 0.5;
+    }
+    
+    .classification li:nth-child(6) {
+        background: url("images/sp2.jpg");
+        background-size: 370px auto;
+    }
+    
+    .classification li:nth-child(6):hover {
+        background: url("images/sp2.jpg");
+        background-size: 370px auto;
+        opacity: 0.5;
+    }
+    
+    .classification li a>div {
+        width: 340px;
+        background: rgba(0, 0, 0, 0.9);
+        position: relative;
+        top: 133px;
+    }
+    
+    .classification li span:nth-child(1) {
+        font-size: 16px;
+        color: white;
+        display: block;
+    }
+    
+    .classification li span:nth-child(2) {
+        font-size: 14px;
+        color: red;
+        display: block;
+    }
+    
+    .garden {
+        width: 740px;
+        padding: 15px;
+        margin-top: 10px;
+    }
+    
+    .garden span {
+        width: 10px;
+        height: 10px;
+        border: 0px solid;
+        border-radius: 50%;
+        display: inline-block;
+        position: relative;
+        left: 340px;
+        margin: 0px 10px 0px;
+        background: #909090;
+    }
+    
+    .rightText {
+        width: 740px;
+        color: white;
+        font-size: 16px;
+        margin: 0 auto;
+        text-align: center;
+        background: #AEAEAE;
+        display: block;
+    }
+    
+    .shop {
+        width: 1903px;
+        height: 440px;
+        background: #DBDBDB;
+        margin: 0px auto;
+    }
+    
+    .shopLeft {
+        float: left;
+        width: 1095px;
+        padding: 15px;
+    }
+    
+    .leftTop {
+        height: 50px;
+        font: 20px "微软雅黑";
+        color: white;
+        line-height: 50px;
+    }
+    
+    .leftTop div:nth-child(1) {
+        float: left;
+        padding-left: 20px;
+        width: 730px;
+        background: #3959A3;
+    }
+    
+    .leftTop div:nth-child(2) {
+        width: 325px;
+        padding-left: 20px;
+        background: #212121;
+        color: #5E5E5E;
+        float: left;
+    }
+    
+    .leftTop div:nth-child(2):hover {
+        color: white;
+    }
+    
+    .leftBottomtext {
+        padding: 10px;
+    }
+    
+    .leftBottom ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .leftBottom ul li {
+        background: #fff;
+    }
+    
+    .leftBottom li .leftBottomtext span:nth-child(1) {
+        font: 18px "微软雅黑";
+    }
+    
+    .leftBottom li .leftBottomtext span:last-child {
+        font: 14px "微软雅黑";
+        color: red;
+    }
+    
+    .leftBottom span {
+        display: block;
+    }
+    
+    .leftBottom li div:last-child span {
+        width: 275px;
+        display: block;
+        font-size: 14px;
+        height: 50px;
+        color: #fff;
+        line-height: 50px;
+        float: left;
+        background: #B51422;
+        padding-left: 20px;
+    }
+    
+    .leftBottom ul li:nth-child(1) #text {
+        margin-top: 20px;
+    }
+    
+    .leftBottom ul li:nth-child(2) #text1 {
+        margin-top: 20px;
+    }
+    
+    .leftBottom ul li:nth-child(3) #text2 {
+        margin-top: 1px;
+    }
+    
+    .del {
+        font: 14px "微软雅黑";
+        color: #5E5E5E;
+        text-decoration: line-through;
+    }
+    
+    .leftBottom .hover li:hover {
+        opacity: 0.5;
+    }
+    
+    .shopRight {
+        width: 763px;
+        padding-top: 15px;
+        padding-right: 15px;
+        float: right;
+    }
+    
+    .shopRighttop {
+        font-size: 18px;
+        height: 50px;
+        background: #3959A3;
+        line-height: 50px;
+        color: #fff;
+    }
+    
+    .shopRighttop div span:nth-child(1) {
+        float: left;
+        padding-right: 282px;
+        padding-left: 20px;
+    }
+    
+    .shopRighttop div span:nth-child(2) {
+        float: right;
+    }
+    
+    .shopRighttop div:nth-child(1) {
+        float: left;
+    }
+    
+    .shopRighttop div:nth-child(2) {
+        float: right;
+        background: #202020;
+        padding-right: 180px;
+        padding-left: 20px;
+        color: #5E5E5E;
+    }
+    
+    .shopRighttop div:nth-child(2):hover {
+        color: white;
+    }
+    
+    .shopRightbottom {
+        width: 760px;
+        height: 360px;
+        margin-top: 15px;
+        background: white;
+    }
+    
+    .shopRightbottom div:nth-child(1) img {
+        width: 290px;
+        height: 290px;
+        padding: 10px;
+    }
+    
+    .shopRightbottom div:nth-child(1) {
+        float: left;
+    }
+    
+    .shopRightbottom div:nth-child(2) {
+        float: right;
+    }
+    
+    .shopRightbottom div:nth-child(2) span {
+        display: block;
+    }
+    
+    .shopRightbottomtext {
+        width: 450px;
+    }
+    
+    .shopRightbottomtext span:nth-child(1) {
+        color: #3959A3;
+        font-size: 25px;
+        line-height: 25px;
+        padding-top: 10px;
+    }
+    
+    .shopRightbottomtext span:nth-child(1) img {
+        width: 28px;
+        height: auto;
+    }
+    
+    .shopRightbottomtext span+span {
+        margin-top: 10px;
+    }
+    
+    .shopRightbottomtext span:nth-child(2) {
+        width: 160px;
+        font-size: 18px;
+        text-align: center;
+        line-height: 20px;
+        color: #fff;
+        background: #FD6020;
+    }
+    
+    .shopRightbottomtext span:nth-child(3) {
+        width: 450px;
+        font-size: 18px;
+        color: #5E5E5E;
+    }
+    
+    .shopRightbottomtext span:nth-child(3) div {
+        color: rgb(0, 0, 0);
+    }
+    
+    .shopRightbottomtext span:nth-child(4) {
+        font-size: 18px;
+    }
+    
+    .shopRightbottomtext span:nth-child(5) {
+        background: #ECECEC;
+        font-size: 16px;
+        color: #5E5E5E;
+        padding: 10px;
+        height: 90px;
+    }
+    
+    .games {
+        width: 1903px;
+        margin: 0px auto;
+        background: #3959A3;
+        height: 905px;
+        padding: 15px;
+        overflow: hidden;
+    }
+    
+    .gamesTop {
+        width: 1865px;
+        background: #fff;
+    }
+    
+    .gamesTop div:nth-child(1) {
+        width: 60px;
+        border-bottom: 1px solid;
+        margin: 0px auto;
+        padding-top: 30px;
+    }
+    
+    .gamesTop div:nth-child(2) {
+        width: 100px;
+        font-size: 20px;
+        text-align: center;
+        padding: 5px 0px 5px;
+        margin: 0px auto;
+    }
+    
+    .gamesTop div:nth-child(3) {
+        width: 60px;
+        border-top: 1px solid;
+        margin: 0px auto;
+        padding-bottom: 30px;
+    }
+    
+    .gamesBottom {
+        width: 1865px;
+        background: #fff;
+    }
+    
+    .gamesBottom ul {
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .gamesBottom li {
+        width: 430px;
+        background: #fff;
+        padding: 10px;
+    }
+    
+    .gamesBottom li div:first-child img {
+        width: 450px;
+        height: auto;
+    }
+    
+    .gamesBottom div:nth-child(2) span {
+        display: block;
+    }
+    
+    .gamesBottomtext {
+        padding: 15px;
+    }
+    
+    .gamesBottomtext span:nth-child(1) {
+        font: bold 18px "微软雅黑";
+        padding: 0px 0px 15px;
+    }
+    
+    .gamesBottomtext span:nth-child(1) i {
+        float: right;
+    }
+    
+    .gamesBottomtext span+span {
+        color: #5E5E5E;
+    }
+    
+    .video {
+        width: 1903px;
+        background: #000;
+        overflow: hidden;
+        margin: 0px auto;
+    }
+    
+    .videoTop {
+        background: #000;
+        color: #fff;
+    }
+    
+    .videoTop div:nth-child(1) {
+        border-top: #fff;
+    }
+    
+    .videoTop div:nth-child(3) {
+        border-bottom: #fff;
+    }
+    
+    .videoBottom ul {
+        width: 1904px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .videoBottom li:nth-child(1) {
+        height: 476px;
+        width: 476pX;
+        background: url("images/original_1517816602.jpg") 476px 476px;
+    }
+    
+    .videoBottom li:nth-child(2) {
+        height: 476px;
+        width: 476pX;
+        background: url("images/original_1516944139.jpg") 476px 476px;
+    }
+    
+    .videoBottom li:nth-child(3) {
+        height: 476px;
+        width: 476pX;
+        background: url("images/original_1516676741.jpg") 476px 476px;
+    }
+    
+    .videoBottom li:nth-child(4) {
+        height: 476px;
+        width: 476pX;
+        background: url("images/original_1515737174.jpg") 476px 476px;
+    }
+    
+    .videoBottom li:nth-child(5) {
+        height: 476px;
+        width: 476pX;
+        background: url("images/original_1515737376.jpg") 476px 476px;
+    }
+    
+    .videoBottom li:nth-child(6) {
+        height: 476px;
+        width: 476pX;
+        background: url("images/original_1513251522.jpg") 476px 476px;
+    }
+    
+    .videoBottom li:nth-child(7) {
+        height: 476px;
+        width: 476pX;
+        background: url("images/original_1513137696.jpg") 476px 476px;
+    }
+    
+    .videoBottom li:nth-child(8) {
+        height: 476px;
+        width: 476pX;
+        background: #3959A3;
+    }
+    
+    .videoBottom li:nth-child(8) .more {
+        font-size: 30px;
+        color: #fff;
+        width: 140px;
+        height: 60px;
+        border-top: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+        margin: 195px auto;
+        text-align: center;
+        line-height: 60px;
+    }
+    
+    .videoBottomtext {
+        line-height: 60px;
+        font-size: 18px;
+        color: #fff;
+        height: 60px;
+        width: 476pX;
+        background: rgba(0, 0, 0, 0.9);
+        position: relative;
+        top: 416px;
+    }
+    
+    .videoBottomtext span {
+        display: block;
+        float: right;
+        margin-right: 30px;
+        width: 40px;
+        height: 40px;
+        background: #3959A3;
+        border-radius: 50%;
+        margin-top: 10px;
+        line-height: 40px;
+        text-align: center;
+    }
+    
+    .videoBottomtext i {
+        font-size: 30px;
+    }
+    
+    .videoBottom li:hover {
+        opacity: 0.5;
+    }
+    
+    .footer {
+        padding: 30px 0px 30px;
+        background: #000;
+    }
+    
+    .footerTop {
+        color: #fff;
+        height: 150px;
+        border-top: 1px solid #5E5E5E;
+        border-bottom: 1px solid #5E5E5E;
+    }
+    
+    .footerTop ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .footerTop li {
+        width: 240px;
+        height: 40px;
+        padding: 10px;
+        background: #5E5E5E;
+        font-size: 16px;
+        margin: 45px 10px;
+    }
+    
+    .footerTop span {
+        width: 180px;
+        display: block;
+        float: left;
+        line-height: 40px;
+    }
+    
+    .footerTop li div {
+        float: right;
+        line-height: 40px;
+    }
+    
+    .footerTop li div i {
+        font-size: 40px;
+    }
+    
+    .footerBottom div:nth-child(1) {
+        width: 230px;
+        height: 30px;
+        background: #5E5E5E;
+        text-align: center;
+        margin: 40px auto;
+        line-height: 30px;
+    }
+    
+    .footerBottom div:nth-child(1):hover {
+        color: #fff;
+    }
+    
+    .footerBottom div:nth-child(1) span {
+        color: #908F8D
+    }
+    
+    .footerBottom div:nth-child(1) i {
+        color: red;
+    }
+    
+    .footerBottom div+div {
+        color: #908F8D;
+        line-height: 30px;
+        text-align: center;
+    }
+    
+    .footerBottom div:nth-child(2) a:hover {
+        color: #fff;
+    }
